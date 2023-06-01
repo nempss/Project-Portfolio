@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Neeme Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Dosis&display=swap" rel="stylesheet" />
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+</head>
+
+<body>
+  <header class="header">
+    <a href="#" class="logo">Neeme.</a>
+    <nav class="navbar">
+      <a href="#">Home</a>
+      <a href="#about">About Me</a>
+      <a href="#projects">Portfolio</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="home">
+    <div class="home-text">
+      <h1>Hi, I'm Neeme</h1>
+      <h3>Beginner Developer</h3>
+      <p>Creating this project for the programming class</p>
+      <div class="btn-box">
+        <a href="#contact">Contact me</a>
+      </div>
+    </div>
+
+    <div class="home-icon">
+      <a href="mailto:n.linnamae@gmail.com"><i class="bx bxl-gmail"></i></a>
+    </div>
+  </section>
+
+  <section class="about" id="about">
+    <h2 class="heading">About <span>Me</span></h2>
+
+    <div class="image">
+      <img src="" alt="">
+      <span class="spinner"></span>
+    </div>
+
+    <div class="about-content">
+      <h3>Beginner Developer!</h3>
+      <p>
+        My name is Neeme. Im graduating Rakvere Ametikool. I like to design websites, read and learn about coding with my free time.
+        This website is created for my projects.
+      </p>
+      <div class="btn-box btns">
+        <a href="#About me" class="btn">Read more...</a>
+      </div>
+    </div>
+  </section>
+  
+  <section id="projects">
+    <div class="Container" id="Containers">
+      <h2>My Projects</h2>
+      <h3>My projects can be found at the link: <a href="https://github.com/nempss?tab=repositories" target="_blank">https://github.com/nempss?tab=repositories</a></h3>
+      <div class="contents"></div>
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <h2 class="heading">Contact <span>Me!</span></h2>
+
+    <form action="#">
+      <div class="input-box">
+        <div class="input-field">
+          <input type="text" placeholder="Full Name" required>
+          <span class="focus"></span>
+        </div>
+        <div class="input-field">
+          <input type="text" placeholder="Email Adress" required>
+          <span class="focus"></span>
+        </div>
+      </div>
+
+    
+
+      <div class="textarea-field">
+        <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+        <span class="focus"></span>
+      </div>
+      <div class="btn-box">
+        <button type="submit" class="btn">Submit</button>
+      </div>
+    </form>
+  </section>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
